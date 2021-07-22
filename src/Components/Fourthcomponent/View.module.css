@@ -1,0 +1,37 @@
+.table{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 150px;
+    
+}
+
+.firsttr{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+
+}
+.firsttr th {
+     text-align: right;
+}
+
+
+.secondtr{
+    width: 100%;
+    background-color: white;
+    font-size: 15px;
+   
+}
+.secondtr h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #312c35;
+    line-height: 5px;
+}
+.secondtr p{
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+

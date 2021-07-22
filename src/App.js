@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Nav from './Components/NavBar/Navlist';
+import Displaytext  from './Components/Thirdcomponent/Displaytext';
+import View from './Components/Fourthcomponent/View'
+import Viewfive from './Components/Fifthcomponent/Viewfive';
+import Viewsix from './Components/Sixcomponent/Viewsix';
+import Viewseven from './Components/SevenComponent/Viewseven';
+import Vieweight from './Components/Eightcomponent/Vieweight';
+import Viewnine from './Components/Ninecomponent/Viewnine';
+import Viewten from './Components/Tencomponent/Viewten';
+import Viewleven from './Components/Levencomponent/Viewleven'
+class App extends React.Component {
+   render() {
+      return (
+         
+         <div className='tonav'>
+          <Nav/>
+          <Displaytext />
+          <View />
+          <Viewfive />
+          <Viewsix />
+         < Viewseven/>
+         <Vieweight />
+         <Viewnine/>
+         <Viewten/>
+         <Viewleven/>
+         </div>
+         
+      )
+   }
 }
-
 export default App;

@@ -1,0 +1,21 @@
+.table{
+    background-color: white;
+        width: 100%;
+    }
+.table h2{
+    display: block;
+}
+
+
+
+
+
+
+    .img {
+        background:transparent url('../Assets/sprite-icons.webp');
+       background-position: -141px -567px;
+       width: 143px;
+       height: 131px;
+   
+       margin-left: 150px;
+   } 

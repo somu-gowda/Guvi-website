@@ -1,0 +1,30 @@
+.firstth{
+    /* background-color: lightblue; */
+    padding: 10px;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.firstth button{
+    background-color: blue;
+    padding: 10px;
+    margin-right: 1.5rem;
+    width: 150px;
+    border-color: 15px solid gray;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+}
+
+.secondth{
+    /* background-color: lightblue; */
+    padding: 20px;
+    margin: 20px 20px;
+   
+}
+
+.td{
+    width: 100%;
+    background-color: white;
+    margin: 3rem 4rem 4rem;
+}
