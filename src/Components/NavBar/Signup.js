@@ -3,7 +3,7 @@ import React from "react";
 import Imges from "../Assets/art-new-account.webp";
 function Signup() {
   const homePage = () => {
-    window.location.href = "/Practies";
+    window.location.href = "/";
   };
   return (
     <div style={{ backgroundColor: "green" }}>

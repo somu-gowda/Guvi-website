@@ -17,7 +17,7 @@ class Home extends React.Component {
             <b style={{marginRight:'20px'}}>
            <Link to='/IitCourse' className={Color.link}>IIT-COURSES</Link>
            <Link to='/Courses' className={Color.link}>COURSES</Link>
-           <Link to='/Practies' className={Color.link}>PRACTIES</Link>
+           <Link to='/' className={Color.link}>PRACTIES</Link>
            <Link to='/Zenclass' className={Color.link}>ZEN CLASS</Link>
            <Link to='/Hyre' className={Color.link}>HYRE</Link>
            <Link to='/pricing' className={Color.link}>PRICING</Link>|
