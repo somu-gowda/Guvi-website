@@ -59,11 +59,11 @@ function SubFooter() {
             </table>
             <div>
                 <div style = {{float : 'right'}} >
-                    <a href='' style={{marginRight : '20px'}}><img src={Instagram}></img></a>
-                    <a href='' style={{marginRight : '20px'}}><img src={Twitter}></img></a>
-                    <a href='' style={{marginRight : '20px'}}><img src={FaceBook}></img></a>
-                    <a href='' style={{marginRight : '20px'}}><img src={Youtube}></img></a>
-                    <a href='' style={{marginRight : '20px'}}><img src={LinkDIn}></img></a>
+                    <a href='fghj' style={{marginRight : '20px'}}><img src={Instagram} alt='nsnf'></img></a>
+                    <a href='asdfgh' style={{marginRight : '20px'}}><img src={Twitter}alt='nsnf'></img></a>
+                    <a href='dfgh' style={{marginRight : '20px'}}><img src={FaceBook}alt='nsnf'></img></a>
+                    <a href='fgh' style={{marginRight : '20px'}}><img src={Youtube}alt='nsnf'></img></a>
+                    <a href='fgh' style={{marginRight : '20px'}}><img src={LinkDIn}alt='nsnf'></img></a>
                 </div>
             </div>
         </div>

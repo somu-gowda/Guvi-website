@@ -1,5 +1,5 @@
 import React from "react";
-import MainFooterCss from "./MainFooter.css";
+// import MainFooterCss from "./MainFooter.css";
 import Icon from '../Assets/Group 56200.svg'
 function Copyright() {
   return (

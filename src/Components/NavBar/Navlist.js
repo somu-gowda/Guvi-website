@@ -1,6 +1,6 @@
 import React from 'react';
 // import {browserHistory} from 'react-router';
-import {Route , Link ,Switch ,BrowserRouter as Router } from 'react-router-dom';
+import {Route , Link  ,BrowserRouter as Router } from 'react-router-dom';
 import Color from'./Navlist.module.css'
 
 class Home extends React.Component {
@@ -8,7 +8,6 @@ class Home extends React.Component {
    render() {
       const signup = () =>{
          window.location.href='/Signup'
-         // browserHistory.push('/Signup');
       }
       return (
          <div>
@@ -21,7 +20,7 @@ class Home extends React.Component {
            <Link to='/Practies' className={Color.link}>PRACTIES</Link>
            <Link to='/Zenclass' className={Color.link}>ZEN CLASS</Link>
            <Link to='/Hyre' className={Color.link}>HYRE</Link>
-           <Link to='/Practies' className={Color.link}>PRICING</Link>|
+           <Link to='/pricing' className={Color.link}>PRICING</Link>|
             <Link  to='/Login' className={Color.link} >LOGIN</Link> 
             <button className={Color.link} onClick={signup}> SIGNUP </button> 
             </b>
