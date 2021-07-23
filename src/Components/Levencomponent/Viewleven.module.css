@@ -1,0 +1,42 @@
+.table{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 200px;
+    padding: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.h1{
+    width: 100%;
+
+}
+.h2{
+    width: 100%;
+}
+.h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #312c35;
+}
+.th2{
+    background-color : #FF00FF;
+}
+.shadow {
+    box-shadow: 0 .10rem 1rem rgba(0,0,0,.15)!important;
+}
+.radius{
+    border-radius: 10px;
+}
+.courseButton{
+    margin-top: 25px;
+    margin-left: 210px;
+    color: #fff;
+    background-color: #0dba4b;
+    border-width: 0;
+    width: 182px;
+    height: 40px;
+    border-radius: 64px;
+}
